@@ -31,6 +31,18 @@ Smart Waste Management System is an AI-powered, interactive dashboard designed t
    Bin data is simulated for testing (location, fill level).  
    Route optimization is based on simple heuristics prioritizing overflow bins.
 
-##  Folder Structure
-smart-waste-system/ ├── app.py # Main dashboard ├── waste_classifier.py # Waste image classifier module ├── simulate_bins.py # Bin data simulation ├── route_optimizer.py # Route planning algorithm
+
+##  Run the App
+streamlit run app.py
+
+## 🌱 Future Enhancements
+
+- Train a custom waste classifier on domain-specific datasets  
+- Integrate GPS from smart bins for live tracking  
+- Add user authentication for role-based access (e.g., admin, driver)  
+
+
+
+
+
 
